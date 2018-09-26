@@ -8,7 +8,7 @@ var ImagentresSchema = Schema({
 	descripcion:String,
 	imagen:String,
 	user: {type: Schema.ObjectId, ref:'User'},
-	restaurant: {type: Schema.ObjectId, ref:'Restaurant'}
+	producto: {type: Schema.ObjectId, ref:'Producto'}
 
 });
 
